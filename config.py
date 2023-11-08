@@ -20,3 +20,4 @@ class Config(object):
     MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
     ADMINS = ['zolotovvladislav305@gmail.com']
     POSTS_PER_PAGE = 25
+    ELASTICSEARCH_URL = os.getenv('ELASTICSEARCH_URL')
