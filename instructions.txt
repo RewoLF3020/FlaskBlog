@@ -28,8 +28,10 @@ docker run --name flaskblog -d -p 8000:5000 --rm -e SECRET_KEY=my-secret-key \
 
 можно написать yml и сделать через docker compose
 
+in dev mode for RedisQueue:
 
-
+1. sudo docker start redis
+2. rq worker flaskblog-tasks
 
 
 
